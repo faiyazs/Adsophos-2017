@@ -1,0 +1,50 @@
+.thumbnail-list {
+  list-style: none;
+  margin: 0; padding: 0;
+}
+
+.thumbnail-list li {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.thumbnail-list .image-w {
+  display: block;
+  position: relative;
+  width: 16em;
+}
+
+.image-w img {
+  display: block;
+  width: 10%;
+  height: auto;
+}
+
+.cover {
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  color: rgba(255,255,255,0);
+  text-align: center;
+  transition: all 1s linear;
+}
+
+.cover:hover {
+  background-color: transparent;
+  color: rgba(255,255,255,1);
+  transition: all .1s linear;
+}
+
+.thumbnail-list h3 {
+  font-size: 1.2em;
+}
+
+.thumbnail-list p {
+  font-size: .9em;
+}
